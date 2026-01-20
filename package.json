@@ -2,21 +2,19 @@
   "name": "cfo-digital-lucas",
   "version": "1.0.0",
   "description": "Bot CFO Digital para controle de gastos",
-  {
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
-  }
-}
+  },
   "dependencies": {
     "node-telegram-bot-api": "^0.66.0",
-    "openai": "^4.20.1",
-    "googleapis": "^128.0.0",
-    "google-spreadsheet": "^4.1.2",
+    "express": "^4.18.2",
     "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "keywords": ["telegram", "bot", "cfo", "gastos"],
   "author": "Lucas",
   "license": "MIT"
-
 }
